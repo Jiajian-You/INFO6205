@@ -5,21 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Implementation of ThreeSum which follows the simple optimization of
- * requiring a sorted array, then using binary search to find an element x where
- * -x the sum of a pair of elements.
- * <p>
- * The array provided in the constructor MUST be ordered.
- * <p>
- * This algorithm runs in O(N^2 log N) time.
- */
 class ThreeSumQuadrithmic implements ThreeSum {
-    /**
-     * Construct a ThreeSumQuadrithmic on a.
-     *
-     * @param a a sorted array.
-     */
     public ThreeSumQuadrithmic(int[] a) {
         this.a = a;
         length = a.length;
